@@ -18,9 +18,3 @@ export const Spinner = args => ({
 Spinner.args = {
   light: false
 }
-
-// export const Primary = Template.bind({})
-// Primary.args = {
-//   primary: true,
-//   label: 'Button'
-// }

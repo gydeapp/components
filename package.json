@@ -1,6 +1,6 @@
 {
   "name": "@gydeapp/components",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "./dist/gydeapp.common.js",
   "repository": "git://github.com/gydeapp/shared.git",
@@ -41,6 +41,7 @@
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-docs": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-links": "^6.4.19",
     "@storybook/addon-postcss": "^2.0.0",
