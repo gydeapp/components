@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+:root {
+  /* App main layout  */
+  --max-container-width: 1160px;
+  --max-content-width: 820px;
+  --max-aside-content-width: 267px;
+
+  /* Base  */
+  --main-color: #43e095;
+}

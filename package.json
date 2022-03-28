@@ -1,0 +1,64 @@
+{
+  "name": "@gydeapp/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/gydeapp.common.js",
+  "repository": "git://github.com/gydeapp/shared.git",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gydeapp/shared/issues"
+  },
+  "homepage": "https://github.com/gydeapp/shared#readme",
+  "publishConfig": {
+    "@gydeapp:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib src/entry.js --name gydeapp",
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@gydeapp/components": "^1.0.0",
+    "@gydeapp/shared": "^1.0.108",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addons": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/theming": "^6.4.19",
+    "@storybook/vue3": "^6.4.19",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-loader": "^8.2.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^3.0.23",
+    "vue-loader": "^16.8.3"
+  }
+}
