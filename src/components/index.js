@@ -1,2 +1,7 @@
 export { default as AppButton } from './AppButton.vue'
 export { default as AppSpinner } from './AppSpinner.vue'
+export { default as TheAside } from './TheAside.vue'
+export { default as TheAsideOverlay } from './TheAsideOverlay.vue'
+export { default as TheAsideRouteList } from './TheAsideRouteList.vue'
+export { default as TheAsideRouteListItem } from './TheAsideRouteListItem.vue'
+export { default as TheHeaderContainer } from './TheHeaderContainer.vue'

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { AppSpinner } from '@gydeapp/components'
+import { AppSpinner } from '../components'
 
 export default {
   name: 'HomeView',

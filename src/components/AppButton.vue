@@ -19,7 +19,7 @@
 <script setup>
 import { computed } from 'vue'
 
-import { AppSpinner } from '@gydeapp/components'
+import { AppSpinner } from '../components'
 
 const props = defineProps({
   backgroundColor: {

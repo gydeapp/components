@@ -1,6 +1,6 @@
 {
   "name": "@gydeapp/components",
-  "version": "1.0.4",
+  "version": "1.0.29",
   "description": "",
   "main": "./dist/gydeapp.common.js",
   "repository": "git://github.com/gydeapp/shared.git",
@@ -31,7 +31,6 @@
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "dependencies": {
-    "@gydeapp/shared": "^1.0.108",
     "hammerjs": "^2.0.8",
     "swiper": "^8.0.7"
   },
