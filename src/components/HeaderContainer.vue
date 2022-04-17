@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'TheHeaderContainer'
+  name: 'HeaderContainer'
 }
 </script>

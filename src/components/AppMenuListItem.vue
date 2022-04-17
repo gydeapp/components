@@ -34,7 +34,7 @@ defineProps({
 
 <script>
 export default {
-  name: 'TheAsideRouteListItem'
+  name: 'AppMenuListItem'
 }
 </script>
 

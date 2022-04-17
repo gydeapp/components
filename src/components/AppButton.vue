@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="select-none text-sm font-bold opacity-100 outline-none transition-opacity duration-300 ease-in-out focus-visible:outline-none disabled:opacity-40 sm:hover:opacity-60"
+    class="select-none leading-3 text-sm font-bold opacity-100 outline-none transition-opacity duration-300 ease-in-out focus-visible:outline-none disabled:opacity-40 sm:hover:opacity-60"
     :class="classes"
     :disabled="disabled"
     @click="handleClick"
@@ -142,7 +142,10 @@ const spinnerLight = computed(() => {
 })
 
 function handleClick($event) {
-  $event.target.focus()
+  if (props.isLoading) {
+    return
+  }
+
   emit('click', $event)
 }
 </script>

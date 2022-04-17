@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'TheAsideRouteList'
+  name: 'AppMenuList'
 }
 </script>
