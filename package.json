@@ -1,6 +1,6 @@
 {
   "name": "@gydeapp/components",
-  "version": "1.0.38",
+  "version": "1.0.45",
   "description": "",
   "main": "./dist/gydeapp.common.js",
   "repository": "git://github.com/gydeapp/shared.git",
